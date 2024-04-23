@@ -17,7 +17,7 @@
 
 }
 .map iframe{
-    max-width: 100%;
+    width: 100%;
     height: calc(100% - 56.8px);
 }
 
@@ -41,9 +41,9 @@
     /* left: 8%; */
     /* top: calc(20% + 47px); */
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     color: black;
-    padding: 0 30px 0 30px;
+    padding: 15px 30px;
     font-size: 20px;
 }
 .contact-us h1{
