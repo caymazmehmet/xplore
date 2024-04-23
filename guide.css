@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 11px 8%;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav .logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background: #a81061;
+    transition: 0.4s;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 46px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+
+
+}
+
+.content .rio {
+    border-radius: 8px;
+    width: 300px;
+    height: 540px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(211, 211, 211, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .rio img {
+    width: 270px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content .rio p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+
+.content .north img {
+    width: 270px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content .north p {
+    padding-bottom: 15px;
+}
+
+.last-btn {
+    font-size: 15px;
+    padding: 12px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20PX;
+    display: grid;
+    position: absolute;
+    left: 44%;
+}
+
+.last-btn:hover {
+    background: #a81061;
+    transition: 0.4s;
+}

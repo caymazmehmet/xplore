@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)), url(images/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 11px 8%;
+    /** Bu hareket ile conttainerdeki her şeye bu değerler arasına alıyoruz**/
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav .logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn img {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background: #a81061;
+    transition: 0.4s;
+}
+.map-container{
+    display: flex;
+    padding-top: 40px;
+    height: 70vh;
+    align-items: end;
+}
+.map {
+    width: 50%;
+    height: 100%;
+     /*
+    height: 450px;
+    position: absolute;
+    bottom: 70px;
+    right: 8%;
+    top: 20%; */
+
+}
+.map iframe{
+    max-width: 100%;
+    height: calc(100% - 47.2px);
+}
+
+.map h2 {
+    color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.contact-us {
+    width: 50%;
+    height: calc(100% - 47.2px);
+    /* width: 600px;
+    height: 450px; */
+    color: rgb(0, 0, 0);
+    background-color: rgba(211, 211, 211, 0.8);
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    /* left: 8%; */
+    /* top: calc(20% + 47px); */
+    justify-content: center;
+    gap: 50px;
+    color: black;
+    padding: 0 30px 0 30px;
+    font-size: 20px;
+}
+.contact-us h1{
+    color: #f5168d;
+}
+.contact-us p{
+    font-weight: bold;
+    font-stretch: wider;
+    font-style: italic;
+}
+.contact-us a i{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+.contact-us a i:hover{
+    color: #fa7e1e;
+    transition: 0.3s;
+}
