@@ -18,7 +18,7 @@
 }
 .map iframe{
     max-width: 100%;
-    height: calc(100% - 47.2px);
+    height: calc(100% - 56.8px);
 }
 
 .map h2 {
@@ -30,7 +30,7 @@
 
 .contact-us {
     width: 50%;
-    height: calc(100% - 47.2px);
+    height: calc(100% - 56.8px);
     /* width: 600px;
     height: 450px; */
     color: rgb(0, 0, 0);
