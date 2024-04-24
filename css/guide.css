@@ -1,10 +1,9 @@
-
-
 .container a {
     text-decoration: none;
     color: #fff;
 
 }
+
 .content {
     display: flex;
     justify-content: center;
@@ -20,8 +19,6 @@
     margin-bottom: 20px;
     display: inline-block;
     width: 100%;
-
-
 }
 
 .content .rio {
